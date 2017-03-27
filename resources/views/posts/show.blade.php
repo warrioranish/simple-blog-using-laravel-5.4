@@ -3,7 +3,7 @@
 @section('content')
     <div class="col-sm-8 blog-main">
         <h1> {{ $post->title }}</h1>
-
+        <h3>asdlfafjal</h3>
         <img src="{{ asset('/uploads/images/'.$post->filename) }}" alt="no image found" height="150px" width="150px">
         <br>
         {{ $post->body }}
