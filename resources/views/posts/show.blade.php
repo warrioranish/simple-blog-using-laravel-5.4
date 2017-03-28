@@ -44,6 +44,8 @@
                     </form>
                 </div>
             </div>
+        @else
+            <div class="fb-comments" data-href="http://127.0.0.1:8000/posts/{post}" data-width="700px"></div>
         @endif
 
         <div>
