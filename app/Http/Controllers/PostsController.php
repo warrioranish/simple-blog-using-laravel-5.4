@@ -48,7 +48,7 @@ class PostsController extends Controller
             if ($request->file('image')->isvalid()){
                 $file = $request->file('image');
                 $filename = $file->getClientOriginalName();
-                $destination_path =public_path().'/uploads/images';
+                $destination_path = public_path().'/uploads/images';
                 $file->move($destination_path, $filename);
             }
         }

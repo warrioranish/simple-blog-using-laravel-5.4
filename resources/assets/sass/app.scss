@@ -12,10 +12,7 @@
 body {
   font-family: Georgia, "Times New Roman", Times, serif;
   color: #555;
-  background-color: white;
-  background-image: url("http://more-sky.com/data/out/6/IMG_101837.png");
-  background-repeat: no-repeat;
-  background-size: 1291px 1283.6px;
+  background: linear-gradient(to right, whitesmoke, #c6c6c6);
 }
 
 h1, .h1,
@@ -166,6 +163,13 @@ h6, .h6 {
   background-color: #3f3939;
   border-top: .05rem solid #e5e5e5;
 }
+.blog-footer p{
+  color: whitesmoke;
+}
 .blog-footer p:last-child {
   margin-bottom: 0;
+}
+
+.blog-nav p{
+  margin: 0px;
 }

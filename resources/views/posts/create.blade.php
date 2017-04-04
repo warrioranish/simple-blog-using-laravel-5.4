@@ -23,7 +23,7 @@
             
             <div class="form-group">
                 <label for="image">Upload image</label>
-                <input type="file" name="image">
+                <input type="file" name="image" required>
             </div>
 
             <button type="submit" class="btn btn-primary">Publish</button>

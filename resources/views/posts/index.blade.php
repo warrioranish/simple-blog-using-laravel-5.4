@@ -16,4 +16,14 @@
         </nav>
 
     </div><!-- /.blog-main -->
+    <script>
+        $(document).ready(function(){
+            $('.content_title').click(function(){
+                console.log('title was clicked');
+                var id = $(this).attr('id');
+                var title = id.replace('title_','');
+                $('#content_'+title).toggle();
+            });
+        });
+    </script>
 @endsection
