@@ -1,8 +1,8 @@
 <div class="blog-post">
     <h2 class="blog-post-title">
-        <p class="content_title" id="title_{{ $post->id }}">
+        <a href="javascript:void(0)" class="content_title" id="title_{{ $post->id }}">
           {{ $post->title }}
-        </p>
+        </a>
     </h2>
     <hr>
     <p class="blog-post-meta">

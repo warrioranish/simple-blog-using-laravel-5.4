@@ -65,7 +65,7 @@
     <script>
         $(document).ready(function(){
            $('.action').click(function(){
-               $('.action_btns').toggle();
+               $('.action_btns').slideToggle();
            });
         });
     </script>

@@ -20,9 +20,8 @@
         $(document).ready(function(){
             $('.content_title').click(function(){
                 console.log('title was clicked');
-                var id = $(this).attr('id');
-                var title = id.replace('title_','');
-                $('#content_'+title).toggle();
+                var id = $(this).attr('id').replace('title_','');
+                $('#content_'+id).fadeToggle(1500);
             });
         });
     </script>
