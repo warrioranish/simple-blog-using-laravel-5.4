@@ -10,7 +10,7 @@
         {{ $post->created_at->toFormattedDateString() }}
     </p>
     <div id="content_{{ $post->id }}" style="display: none;">
-        <img src="{{ asset('/uploads/images/'.$post->filename) }}" alt="no image found" width="150px" height="150px">
+        <img class="grayscale_image" src="{{ asset('/uploads/images/'.$post->filename) }}" style="webkit-filter: grayscale(1); filter:grayscale(1)" alt="no image found" width="150px" height="150px">
         <p>
             {{ $post->body }}
         </p>

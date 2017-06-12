@@ -50,6 +50,10 @@ Route::post('/login', 'SessionsController@store');
 
 Route::get('/logout', 'SessionsController@destroy');
 
+Route::get('/contactus','RegistrationController@contact');
+
+Route::post('/contactus', 'MailController@send');
+
 
 
 

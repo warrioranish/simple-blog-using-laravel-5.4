@@ -31,4 +31,10 @@ class RegistrationController extends Controller
 
         return redirect()->home();
     }
+
+    public function contact() {
+
+        return view('posts.contactus');
+    }
+
 }

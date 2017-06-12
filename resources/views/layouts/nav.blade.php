@@ -4,7 +4,7 @@
             <a class="nav-link" href="/">Home</a>
             <a class="nav-link" href="#">Categories</a>
             <a class="nav-link" href="#">About Us</a>
-            <a class="nav-link" href="#">Contact Us</a>
+            <a class="nav-link" href="/contactus">Contact Us</a>
             @if(Auth::check())
                     <a class="nav-link" href="/posts/create">Create</a>
                     <a class="nav-link ml-auto" href="#">{{ Auth::user()->name }}</a>
